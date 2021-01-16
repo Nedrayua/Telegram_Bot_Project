@@ -7,7 +7,7 @@ from flask import Flask, request, abort
 from shop.models.shop_models import Category, User, Product
 from shop.models.extra_models import News
 from . utils import inline_kb_from_iterable, inline_kb
-from . config import TOKEN, WEBHOOK_URI, WEBHOOK_URL
+from . config import TOKEN, WEBHOOK_URI
 from . import constance
 
 app = Flask(__name__)
